@@ -3,20 +3,20 @@ body{
     background-image: url("magic.jpeg");
     font-size: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 h2{
     color: rgb(55, 20, 179);
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: left;
 }
 input[type = text]{
     width: 50%;
     height: 50px;
     background-color: rgb(90, 192, 124);
     font-size: 24px;
-    text-align: center;
+    text-align: left;
 }
 button[type=button]{
     width: 50%;
@@ -26,5 +26,5 @@ button[type=button]{
     border-radius: 20px;
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
+    text-align: left;
 }
