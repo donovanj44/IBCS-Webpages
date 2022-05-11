@@ -3,13 +3,13 @@ body{
     background-image: url("magic.jpeg");
     font-size: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: right;
+    text-align: center;
 }
 h2{
     color: rgb(55, 20, 179);
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    text-align: right;
+    text-align: center;
 }
 input[type = text]{
     width: 50%;
