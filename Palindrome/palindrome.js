@@ -9,8 +9,6 @@ function myFunction(){
 }
 function palindrome(word){
     var wordLower = word.toLowerCase();
-    var reverse = word.split('');
-    console.log(reverse);
-    reverse = reverse.reverse().join('')
+    var reverse = word.split('').reverse().join('');
     return reverse==wordLower;
 }
