@@ -8,6 +8,36 @@
         <script src="ToDoList.js"></script>
     </head>
     <body>
-        
+        <header>
+            <h1>Task List 2022-2023</h1>
+            <form id="new-task-form">
+                <input type="text"
+                name="new-task-input"
+                id="new-task-input"
+                placeholder="What is the planned event?"/>
+                <input type="submit"
+                id="new-task-submit"
+                value="Add new task"/>
+            </form>
+        </header>
+        <main>
+            <section class="task-list">
+                <h2>Tasks</h2>
+                <div id="tasks">
+                    <div id="task">
+                        <div class="content">
+                            <input type="text"
+                            class="text"
+                            value="A new task"
+                            readonly>
+                        </div>
+                        <div class="actions">
+                            <button class="edit">EDIT</button>
+                            <button class="delete">DELETE</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
