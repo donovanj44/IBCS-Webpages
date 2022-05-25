@@ -99,7 +99,7 @@ main{
 }
 .task .actions{
     display: flex;
-    margin: 0 -o.5rem;
+    margin: 0 -0.5rem;
 }
 .task .actions button{
     cursor: pointer;
