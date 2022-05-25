@@ -21,6 +21,7 @@ body{
     background-image: linear-gradient(to right, var(--dark),var(--blue));
     --webkit-background-clip: text;
     --webkit-text-fill-color: transparent;
+    color: #FFF;
 }
 header{
     padding: 2rem 1rem;
@@ -37,6 +38,7 @@ header h1{
 }
 #new-task-form{
     display: flex;
+    color: var(--gray)
 }
 input, button{
     appearance: none;
