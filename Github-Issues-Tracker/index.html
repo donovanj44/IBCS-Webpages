@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            To Do List
+        </title>
+        <link rel="stylesheet" href="Github.css">
+        <script src="Github.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>APC Github Issues</h1>
+            <form id="new-issue-form">
+                <input type="text"
+                name="new-issue-input"
+                id="new-issue-input"
+                placeholder="What is the issue?"/>
+                <input type="submit"
+                id="new-task-submit"
+                value="Add new issue"/>
+            </form>
+        </header>
+        <main>
+            <section class="issue-list">
+                <h2>Tasks</h2>
+                <div id="tasks">
+                    <div class="task">
+                        <div class="content">
+                            <input type="text"
+                            class="text"
+                            value="A new task"
+                            readonly>
+                        </div>
+                        <div class="actions">
+                            <button class="edit">EDIT</button>
+                            <button class="delete">DELETE</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
