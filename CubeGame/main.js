@@ -1,11 +1,11 @@
-const canvas = document. getelementByLd ('game');
-const ctx = canvas .getContext ('2d');
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
 let score;
 let highScore;
 let player;
 let gravity;
 let obstacles = [];
-let gamespeed;
+let gameSpeed;
 let keys = [];
 let scoreText;
 let highScoreText;
@@ -21,20 +21,20 @@ class Player{
     this.originalHeight = h;
     }
 Draw(){
-    ctx.beginPath ()
+    ctx.beginPath()
     ctx.fillStyle = this.c
-    ctx. fillRect (this .x, this . y, this .W, this .h) ;
-    ctx.closePath () ;
+    ctx.fillRect(this.x, this.y, this.w, this.h);
+    ctx.closePath();
     }
 }
-function Start (){
+function Start(){
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     ctx.font = "20px sans-serif";
     gameSpeed = 3;
     gravity = 1;
     score = 0;
-    highscore = 0;
+    highScore = 0;
     player = new Player(25, canvas . height-150, 50, 50, '#FF5858');
     player.Draw();
 }
