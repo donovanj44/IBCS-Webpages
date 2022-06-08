@@ -20,11 +20,11 @@ class Player{
     this.jumpForce=15;
     this.originalHeight = h;
     }
-Draw(){
-    ctx.beginPath()
-    ctx.fillStyle = this.c
-    ctx.fillRect(this.x, this.y, this.w, this.h);
-    ctx.closePath();
+    Draw(){
+        ctx.beginPath()
+        ctx.fillStyle = this.c
+        ctx.fillRect(this.x, this.y, this.w, this.h);
+        ctx.closePath();
     }
 }
 function Start(){
