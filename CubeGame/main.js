@@ -22,7 +22,7 @@ class Player{
     }
     Draw(){
         ctx.beginPath()
-        ctx.fillStyle = this.c
+        ctx.fillStyle = this.c;
         ctx.fillRect(this.x, this.y, this.w, this.h);
         ctx.closePath();
     }
