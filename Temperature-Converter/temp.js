@@ -3,10 +3,10 @@ function myFunction(){
     var unit = document.getElementById("unit").value;
     if(unit==="F" || unit==="f"){
         num = (num - 32) * 5/9
-        document.getElementById("response").innerHTML = num + "\u00B0C";
+        document.getElementById("answer").innerHTML = num + "\u00B0C";
     }
     if(unit==="C" || unit==="c"){
         num = (num * (9/5)) + 32
-        document.getElementById("response").innerHTML = num + "\u00B0F";
+        document.getElementById("answer").innerHTML = num + "\u00B0F";
     }
 }
